@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local databases and backups
+database/
+*.dump
+*.sql
+*.sqlite3
+
+# Private podcast transcripts
+data/podcasts/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Do not publish the licensed podcast dataset
+data/lennys-newsletterpodcastdata-main/

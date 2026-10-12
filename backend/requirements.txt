@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+httpx
+sqlalchemy
+psycopg[binary]
+pgvector
+pytest
+pytest-asyncio
